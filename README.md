@@ -1,1 +1,1 @@
-# CS1030-Example-Site
+# Cynsity Official Music Page
