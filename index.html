@@ -6,8 +6,8 @@
     <style>
         /* General Page Styles */
         body {
-            background-color: black;
-            color: white;
+            background-color: white; /* Changed background to plain white */
+            color: black;
             font-family: Arial, sans-serif;
             text-align: center;
         }
@@ -33,35 +33,34 @@
             border-radius: 5px;
         }
 
-        /* Styling for text */
-        h1 {
-            font-size: 50px;
-            color: rgb(10, 4, 100);
-            font-family: Helvetica;
+        /* Logo Styling */
+        .logo {
+            width: 1000px;
+            height: 500px;
+            display: block;
+            margin: 0 auto; /* Centers the logo */
         }
 
-        p {
-            background-color: rgb(150, 150, 150);
-            font-size: 40px;
-            color: green;
-            padding: 10px;
-            border-radius: 5px;
+        /* Info Container Styling */
+        .info-container {
+            text-align: center;
+            margin-top: 20px; /* Adds space below the logo */
         }
 
-        /* Button styles */
+        /* Button Styling */
         button {
-            background-color: #FFD700;
+            background-color: #FFD700; /* Gold background */
             color: black;
-            font-size: 20px;
+            font-size: 15px; /* Reduced size by 25% */
             border: none;
-            padding: 10px 20px;
+            padding: 7px 15px; /* Adjusted padding */
             cursor: pointer;
-            margin-top: 20px;
+            margin-top: 10px;
             border-radius: 5px;
         }
 
         button:hover {
-            background-color: #FFA500; /* Orange hover */
+            background-color: #FFA500; /* Orange hover effect */
         }
     </style>
 </head>
@@ -79,11 +78,14 @@
     
     <p>Check out my latest work and vibe with the music.</p>
     
-    <a href="https://soundcloud.com/cynsity_music">Check out my SoundCloud</a>
-    
-    <button onclick="location.href='about.html'">About Me</button>
-    
-    <img src="./Cynsity_Logo_FinalFiles.jpg" alt="CYNSITY" width="1000" height="500"/>
+    <!-- Logo Image -->
+    <img src="./Cynsity_Logo_FinalFiles.jpg" alt="CYNSITY" class="logo"/>
+
+    <!-- SoundCloud link and About Me button -->
+    <div class="info-container">
+        <a href="https://soundcloud.com/cynsity_music">Check out my SoundCloud</a>
+        <button onclick="location.href='about.html'">About Me</button>
+    </div>
 
 </body>
 </html>
