@@ -3,12 +3,16 @@
 <head>
     <title>Home - Cynsity Music</title>
     <meta name="description" content="Welcome To Cynsity's Official Music Page">
+    
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
     <style>
         /* General Page Styles */
         body {
-            background-color: white; /* Changed background to plain white */
-            color: black;
-            font-family: Arial, sans-serif;
+            background-color: black; /* Set background to black */
+            color: limegreen; /* Updated text color */
+            font-family: 'Poppins', sans-serif; /* Stylish font */
             text-align: center;
         }
 
@@ -20,11 +24,12 @@
         }
 
         nav a {
-            color: white;
+            color: limegreen; /* Keep text green */
             font-size: 18px;
             text-decoration: none;
             padding: 10px 20px;
             display: inline-block;
+            font-weight: 600; /* Make links more readable */
         }
 
         nav a:hover {
@@ -47,21 +52,18 @@
             margin-top: 20px; /* Adds space below the logo */
         }
 
-        /* Button Styling */
-        button {
-            background-color: #FFD700; /* Gold background */
-            color: black;
-            font-size: 15px; /* Reduced size by 25% */
-            border: none;
-            padding: 7px 15px; /* Adjusted padding */
-            cursor: pointer;
-            margin-top: 10px;
-            border-radius: 5px;
+        /* SoundCloud Link */
+        .info-container a {
+            font-size: 22px; /* Make text more readable */
+            font-weight: 400; /* Slightly bold */
+            text-decoration: none;
+            color: limegreen;
         }
 
-        button:hover {
-            background-color: #FFA500; /* Orange hover effect */
+        .info-container a:hover {
+            color: #FFD700; /* Gold hover effect */
         }
+
     </style>
 </head>
 <body>
@@ -70,8 +72,6 @@
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
-        <a href="music.html">My Music</a>
-        <a href="contact.html">Contact</a>
     </nav>
 
     <h1>Welcome to Cynsity's Space</h1>
@@ -81,10 +81,9 @@
     <!-- Logo Image -->
     <img src="./Cynsity_Logo_FinalFiles.jpg" alt="CYNSITY" class="logo"/>
 
-    <!-- SoundCloud link and About Me button -->
+    <!-- SoundCloud link -->
     <div class="info-container">
         <a href="https://soundcloud.com/cynsity_music">Check out my SoundCloud</a>
-        <br><br> <!-- &larr; Adds two line breaks &rarr; -->
     </div>
 
 </body>
