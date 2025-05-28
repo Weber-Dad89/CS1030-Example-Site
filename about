@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Cynsity</title>
+    <meta name="description" content="Learn more about Cynsity and their music journey">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 40px;
+            color: #FFD700;
+        }
+        p {
+            font-size: 20px;
+            margin: 20px auto;
+            max-width: 700px;
+        }
+        .bio-container {
+            padding: 30px;
+        }
+        .music-links a {
+            color: #00FF00;
+            font-size: 18px;
+            text-decoration: none;
+            margin: 10px;
+            display: inline-block;
+        }
+        img {
+            width: 500px;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>About Cynsity</h1>
+    
+    <div class="bio-container">
+        <p>From rap battles in high school and the military to the rave scene, Cynsity found a passion for creating beats that invoke emotion and transcend words.</p>
+        <p>Specializing in future bass and trip-hop, Cynsity produces music that makes you feel—whether it’s joy, excitement, nostalgia, or pure movement.</p>
+        <p>Listen to *Snowfall*, *Ride The Wave*, and explore *The Origin*, Cynsity’s debut EP.</p>
+    </div>
+
+    <div class="music-links">
+        <a href="https://soundcloud.com/cynsity_music">SoundCloud</a>
+        <a href="https://music.apple.com">Apple Music</a>
+    </div>
+
+    <img src="Cynsity_Logo_FinalFiles.jpg" alt="Cynsity Logo">
+
+</body>
+</html>
