@@ -1,56 +1,89 @@
-<!doctype html>
-  <html>
-  <head>
-       <title>Home - Cynsity Music</title>
-        <meta name= "description" content="Welcome To Cynsity's Official Music Page">
-        <style>
-            h1  {
-                  font-size  : 50px; 
-                  color      : rgb( 10, 4, 100); 
-                  font-family: Helvetica; 
-                }
-            p   {
-                  background-color : rgb(150, 150, 150);
-                  font-size   : 40px;
-                }
-        </style>
-  </head>
-  <body>
-      <!-- Navigation Bar -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Cynsity Music</title>
+    <meta name="description" content="Welcome To Cynsity's Official Music Page">
+    <style>
+        /* General Page Styles */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #FFD700; /* Gold hover effect */
+            color: black;
+            border-radius: 5px;
+        }
+
+        /* Styling for text */
+        h1 {
+            font-size: 50px;
+            color: rgb(10, 4, 100);
+            font-family: Helvetica;
+        }
+
+        p {
+            background-color: rgb(150, 150, 150);
+            font-size: 40px;
+            color: green;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Button styles */
+        button {
+            background-color: #FFD700;
+            color: black;
+            font-size: 20px;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #FFA500; /* Orange hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
         <a href="music.html">My Music</a>
         <a href="contact.html">Contact</a>
     </nav>
-    
-    /* Navigation bar styling */
-nav {
-    background-color: #222; /* Dark background */
-    padding: 15px;
-    text-align: center;
-}
 
-nav a {
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: inline-block;
-}
-
-nav a:hover {
-    background-color: #FFD700; /* Gold hover effect */
-    color: black;
-    border-radius: 5px;
-}
-
-
-  </body>
     <h1>Welcome to Cynsity's Space</h1>
-    <p style="color : green; background-color: black;">Check out my latest work and vibe with the music.</p>
-    <a href="https://soundcloud.com/cynsity_music">Check out my Soundcloud</a>
-    <button>Listen!</button>
+    
+    <p>Check out my latest work and vibe with the music.</p>
+    
+    <a href="https://soundcloud.com/cynsity_music">Check out my SoundCloud</a>
+    
+    <button onclick="location.href='about.html'">About Me</button>
+    
     <img src="./Cynsity_Logo_FinalFiles.jpg" alt="CYNSITY" width="1000" height="500"/>
-    <button onclick="location.href='#about-me'">About Me</button>
-  </html>
+
+</body>
+</html>
