@@ -3,64 +3,85 @@
 <head>
     <title>About Cynsity</title>
     <meta name="description" content="Learn more about Cynsity and their music journey">
+    
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
     <style>
+        /* General Page Styles */
         body {
             background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
+            color: limegreen;
+            font-family: 'Poppins', sans-serif;
             text-align: center;
         }
-        h1 {
-            font-size: 40px;
-            color: #FFD700;
+
+        /* Navigation Bar */
+        nav {
+            background-color: #222;
+            padding: 15px;
+            text-align: center;
         }
-        p {
-            font-size: 20px;
+
+        nav a {
+            color: limegreen;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            background-color: #FFD700;
+            color: black;
+            border-radius: 5px;
+        }
+
+        /* Bio Container */
+        .bio-container {
+            text-align: center;
             margin: 20px auto;
             max-width: 700px;
         }
-        .bio-container {
-            padding: 30px;
+
+        /* List Styling */
+        ul {
+            list-style-type: none; /* Removes default bullet points */
+            padding: 0;
         }
-        .music-links a {
-            color: #00FF00;
-            font-size: 18px;
-            text-decoration: none;
-            margin: 10px;
-            display: inline-block;
-        }
-        img {
-            width: 500px;
-            height: auto;
-            margin-top: 20px;
+
+        li {
+            font-size: 20px;
+            padding: 8px;
+            font-weight: 400;
         }
     </style>
 </head>
 <body>
+
     <!-- Navigation Bar -->
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="music.html">My Music</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-
-
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+    </nav>
 
     <h1>About Cynsity</h1>
-    
+
     <div class="bio-container">
-        <p>From rap battles in high school and the military to the rave scene, Cynsity found a passion for creating beats that invoke emotion and transcend words.</p>
-        <p>Specializing in future bass and trip-hop, Cynsity produces music that makes you feel—whether it’s joy, excitement, nostalgia, or pure movement.</p>
-        <p>Listen to *Snowfall*, *Ride The Wave*, and explore *The Origin*, Cynsity’s debut EP.</p>
+        <p>I create immersive electronic music that connects with emotions and vibes.</p>
+        <p>My music is inspired by a variety of electronic dance music genres.</p>
+        
+        <!-- List of Top 5 EDM Genres -->
+        <h2>My Top 5 EDM Genres</h2>
+        <ul>
+            <li>1. Future Bass</li>
+            <li>2. Trip-Hop</li>
+            <li>3. House</li>
+            <li>4. Drum & Bass</li>
+            <li>5. Chillstep</li>
+        </ul>
     </div>
-
-    <div class="music-links">
-        <a href="https://soundcloud.com/cynsity_music">Cynsity On SoundCloud</a>
-        <a href="https://music.apple.com/us/artist/cynsity/1370984444">Cynsity On Apple Music</a>
-    </div>
-
-    <img src="CS6.png" alt="CS Logo">
 
 </body>
 </html>
